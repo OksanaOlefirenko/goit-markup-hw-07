@@ -1,0 +1,28 @@
+.works-section {
+  padding-top: 0;
+}
+
+.works-list {
+  display: flex;
+}
+
+.works-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.works-item {
+  position: relative;
+}
+
+.works-item-text {
+  position: absolute;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+  background-color: rgba(47, 48, 58, 0.8);
+  width: 100%;
+  height: 70px;
+  bottom: 0;
+  @include centeredFlex();
+}
