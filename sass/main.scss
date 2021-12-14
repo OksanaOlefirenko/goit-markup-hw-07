@@ -1,12 +1,15 @@
 @import './utils/variables';
 @import './utils/mixins';
-@import './base/reset';
-@import './base/common';
 @import './utils/hidden';
 
+@import './base/reset';
+@import './base/common';
+
 @import './components/container';
+@import './components/logo';
 @import './components/section__title';
 @import './components/button';
+@import './components/social-list';
 @import './components/modal';
 
 @import './layout/header';

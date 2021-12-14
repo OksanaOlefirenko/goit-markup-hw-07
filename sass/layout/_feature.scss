@@ -2,27 +2,25 @@
   display: flex;
 }
 
-.feature-item {
+.feature-list__item {
   width: 270px;
   &:not(:last-child) {
     margin-right: 30px;
   }
 }
 
-.feature-list {
-  .title {
-    color: var(--title-text-color);
-    @include font(14px, 700, 1.14);
-    text-transform: uppercase;
-  }
+.feature-list__title {
+  color: var(--title-text-color);
+  @include font(14px, 700, 1.14);
+  text-transform: uppercase;
 }
 
-.feature-list .feature-text {
+.feature-list__text {
   margin-top: 10px;
   line-height: 1.71;
 }
 
-.feature-top {
+.feature-list__top {
   display: flex;
   width: 270px;
   height: 120px;
